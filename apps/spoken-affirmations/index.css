@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
@@ -10,4 +12,22 @@
         background-color: black;
         color: white;
     }
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: #1166ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#app-screenshot {
+    width: 400px;
+    aspect-ratio: auto;
 }
