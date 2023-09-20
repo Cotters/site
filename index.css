@@ -3,14 +3,14 @@
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: white;
+        background-color: #fdf6e3;
         color: black;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
+        background-color: #000b0c;
         color: white;
     }
 }
