@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
+
 @media (prefers-color-scheme: light) {
     body {
         background-color: #fdf6e3;
         color: black;
     }
+    a {
+        color: #1166ff;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #000b0c;
+        background-color: #161B22;
         color: white;
+    }
+    a {
+        color: #3BBAED;
     }
 }
 
@@ -19,7 +26,6 @@ body {
 }
 
 a {
-    color: #1166ff;
     text-decoration: none;
 }
 a:hover {
